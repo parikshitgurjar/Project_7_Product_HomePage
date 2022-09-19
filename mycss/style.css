@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*
+{
+    margin:0px;
+    padding:2px;
+}
+/* xoxox  PARENT CONTAINER xoxoxx */
+.container
+{
+    /* background-color:pink; */
+    width:100%;
+    height:100%;
+    position:absolute;
+    display:flex;
+    flex-direction: column;
+}
+
+/* xoxoxox  Child Container 1 xoxxoxox */
+
+.nar_bar
+{
+    /* background-color: aqua; */
+    height:80px;
+    position:relative;
+    top:0;
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    align-items: center;
+}
+
+/* xoxoxox  Child Container 1 ELEMENTS xoxxoxox */
+
+.mylogo
+{
+    width:150px;
+    height:60px;
+    /* background-color: yellow; */
+}
+
+.nav-items
+{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height:60px;
+    width:700px;  
+    z-index: 1;
+}
+
+/* xxoxoxo elements of nav_items xoxox */
+.nav-item
+{
+    color:rgb(47, 47, 43);
+    font-size: 25px;
+    font-family: Poppins;
+    font-weight: lighter;
+    margin:0 35px 0 35px;
+}
+.nav-items .nav-item:hover
+{
+    color:rgb(255, 98, 0);
+    cursor:pointer;
+}
+/* xoxoxo ACTIVE NAV_ITEM xoxoxo */
+.active-item
+{
+    color:rgb(255, 115, 0);
+    font-weight: bolder;
+}
+
+
+
+/* xoxoxox icon image  xoxoxoxox  */
+
+.image_icons img
+{
+    width:150px;
+    height:60px;
+    /* background-color: blue; */
+}
+
+
+
+
+
+
+
+/* xoxoxoxo CONTENT SECTION  xoxoxox */
+.content_section
+{
+    width:100%;
+    /* background-color: sandybrown; */
+    display:flex;
+}    
+
+/* xoxoxo  LEFT SECTION    xoxoxoxox */
+/* xoxoxo  LEFT SECTION    xoxoxoxox */
+/* xoxoxo  LEFT SECTION    xoxoxoxox */
+/* xoxoxo  LEFT SECTION    xoxoxoxox */
+
+
+.left-section 
+{
+    /* background-color: violet; */
+    width:fit-content;
+    height:600px;
+    padding-left: 40px;
+    display:flex;
+    flex-direction: column;
+}
+
+/* xoxoxo  LEFT SECTION : element 1   xoxoxoxox */
+.head1 
+{
+    /* background-color: rgb(185, 65, 109); */
+    font-family: Poppins;
+    font-size: 35px;
+    font-weight: lighter;
+    display:flex;
+    align-items: center;
+    width:400px;
+    margin-top: 20px;
+}
+
+/* xoxoxo  LEFT SECTION : element 2  xoxoxoxox */
+
+.head2
+{
+    /* background-color: rgb(0, 153, 255); */
+    font-size: 30px;
+    font-family:Fredoka One;
+    width:600px;
+    margin-top: 20px;
+}
+
+/* xoxoxo  LEFT SECTION : element 3  xoxoxoxox */
+
+.sub-headlines
+{
+    /* background-color: rgb(24, 252, 111); */
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: Poppins;
+    width:400px;
+    margin-top: 20px;
+    margin-left: 80px;
+}
+.sub-headlines img
+{
+    border-radius:50px;
+    background-color: rgb(250, 81, 51);
+    width:25px;
+    margin-top:0;
+    vertical-align:middle;
+}
+.sub-headlines h5
+{
+    /* background-color: blueviolet; */
+}
+
+/* xoxoxo  LEFT SECTION : element 4  xoxoxoxox */
+
+.para
+{
+    /* background-color: orange; */
+    color:rgb(112, 111, 111);
+    width:650px;
+    margin-top: 20px;
+}
+.para p
+{
+    font-size: 18px;
+ 
+}
+
+/* xoxoxo  LEFT SECTION : element 5  xoxoxoxox */
+.action-btns
+{
+    /* background-color: aqua; */
+    width:450px;
+    height:70px;
+    margin-top: 20px;
+    text-align: left;
+}
+.action-btn
+{
+    background-color: rgb(251, 81, 51);
+    border:none;
+    color:#f0f8ff;
+    width:200px;
+    height:60px;
+    border-radius: 50px;
+    font-size: 20px;
+}
+
+.action-btn:hover
+{
+    background-color:#f81616 ;
+    cursor: pointer;
+}
+
+
+/* xoxoxox RIGHT SECTION xoxoxox */
+/* xoxoxox RIGHT SECTION xoxoxox */
+/* xoxoxox RIGHT SECTION xoxoxox */
+.right-section 
+{
+    /* background-color: rgb(9, 245, 99); */
+    width:700px;
+    height:560px;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+}
+/* xoxo element 1 of RIGHT SECTION xoxox */
+
+/* xoxo right upper section xoxox */
+.headphone_discount
+{
+    /* background-color: rgb(247, 96, 96); */
+    width:680px;
+    height:420px;
+    position:absolute;
+}
+.headphone img
+{
+    width:400px;
+    height:420px;
+    position:absolute;
+    left:150px;
+    top:0;
+}
+
+.discount img
+{
+    position : absolute;
+    width:140px;
+    bottom:50px;
+    left:100px;
+}
+
+.discount-content
+{
+    position:absolute;
+    bottom:70px;
+    left:130px;
+    color: #f0f8ff;
+    font-family:Poppins;
+    font-size: 18px;
+    font-weight:bolder;
+
+}
+
+/* xoxox right lower section xoxox */
+.right_lower
+{
+    /* background-color: orange; */
+    width:680px;
+    height:120px;
+    position:absolute;
+    bottom:0;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.dots
+{
+/*     
+    background-color: rgb(113, 113, 242); */
+    width:200px;
+    height:50px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.yellow-dot
+{
+    background-color: yellow;
+    border-radius: 50px;
+    width:30px;
+    height:30px;
+}
+.tomato-dot
+{
+    background-color:tomato;
+    border-radius: 50px;
+    width:30px;
+    height:30px;
+}
+.black-dot
+{
+    background-color: black;
+    border-radius: 50px;
+    width:30px;
+    height:30px;
+}
+
+
+
+
+/* xoxoxox media query xoxoxo */
+/* xoxoxox media query xoxoxo */
+
+@media (max-width:720px)
+{
+    .container
+    {
+        height:2000px;
+        width: 720;
+        overflow: hidden;
+    }
+    .nar_bar
+    {
+        height:200px;
+    }
+
+    .nav-items
+    {
+        align-self: flex-start;
+        position:fixed;   
+        background-color: #f81616;
+        height:40px;
+        top:0;
+    }
+    
+    .content_section
+    {
+        display:flex;
+        flex-direction:column ;
+    }
+
+    .head2 h1
+    {
+        font-size: 55px;
+        font-family:Fredoka One;   
+    }
+   
+   
+}
